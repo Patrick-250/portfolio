@@ -19,7 +19,7 @@ const Projects = () => (
         Redux, Node.js,Mysql and Socket.io for real-time communication.
       </p>
       <a
-        href="https://chat-application.example.com"
+        href="https://chat-app-ydrz.vercel.app/"
         target="_blank"
         rel="noopener noreferrer"
       >
