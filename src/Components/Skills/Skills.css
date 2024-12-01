@@ -1,0 +1,29 @@
+.skills-category {
+  margin-bottom: 20px;
+}
+
+.skills-category h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  color: #2589bd;
+  padding-bottom: 5px;
+}
+
+.skills-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills-list li {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.devicon {
+  font-size: 50px;
+  color: #187795;
+  margin-right: 10px;
+}

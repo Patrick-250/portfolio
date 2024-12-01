@@ -1,0 +1,38 @@
+.App {
+  display: flex;
+}
+
+.main-content {
+  margin-left: 250px; /* Same width as the sidebar */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+section {
+  padding: 20px;
+  margin: 20px 0;
+}
+
+h2 {
+  border-bottom: 2px solid #282c34;
+  padding-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f4f4f4;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}

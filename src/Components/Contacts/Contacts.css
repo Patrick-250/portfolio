@@ -1,0 +1,26 @@
+.contact-links {
+  display: flex;
+  gap: 60px;
+}
+
+.contact-icon {
+  color: #187795;
+  font-size: 40px;
+  transition: color 0.3s;
+}
+
+.contact-icon:hover {
+  color: #2589bd;
+}
+
+section {
+  padding: 20px;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  color: #2589bd;
+  padding-bottom: 5px;
+  text-align: center;
+}
