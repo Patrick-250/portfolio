@@ -33,7 +33,7 @@ const Projects = () => (
         enabling efficient management and tracking of company assets.
       </p>
       <a
-        href="https://inventory-tracking.example.com"
+        href="https://inventory-tracking.com"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -47,7 +47,7 @@ const Projects = () => (
         and MongoDB to manage housing and room allocations and track occupancy.
       </p>
       <a
-        href="https://hospital-housing.example.com"
+        href="https://hospital-housing.com"
         target="_blank"
         rel="noopener noreferrer"
       >
