@@ -14,7 +14,7 @@ const Projects = () => (
     </p>
     <div>
       <h3>ELITESPACE</h3>
-      <h4>faeatures</h4>
+      <h4>features</h4>
       <ul>
         <li> Digital lease signing &amp; renewals within the app.</li>
         <li>Control smart locks &amp; Automated access control for guests (generate temporary digital keys).</li>
@@ -26,13 +26,7 @@ const Projects = () => (
         
       
       </ul>
-      <a
-        href=""
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Live Demo
-      </a>
+   <a href="https://example.com" onClick={(e) => { e.preventDefault(); alert('Link clicked!'); }}> Live Demo </a>
     </div>
     <div>
       <h3>Company Inventory Tracking Application</h3>
