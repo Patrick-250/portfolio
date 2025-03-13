@@ -5,16 +5,12 @@ const Projects = () => (
   <section>
     <h2>Projects</h2>
     <p>
-      In addition to cooporates projects i worked on, Below are some of my
-      personal projects I have worked on, showcasing my skills in full-stack
-      development. These projects demonstrate my ability to build scalable and
-      robust applications using modern technologies. Please note that these
-      projects are privately hosted on github due to confidentiality, but I am
-      happy to provide more details or a demonstration upon request.
+<p>My passion for Software engineering pushes me to be innovative with cutting-edge technology. As a software engineer, I see the development process as an ongoing journey—one that thrives on continuous growth and adaptation. Every project is an opportunity to push boundaries and shape technology that evolves with the future.</p>
+
     </p>
     <div>
       <h3>ELITESPACE</h3>
-      <h4>features</h4>
+      <h4>Features</h4>
       <ul>
         <li> Digital lease signing &amp; renewals within the app.</li>
         <li>Control smart locks &amp; Automated access control for guests (generate temporary digital keys).</li>
@@ -26,7 +22,7 @@ const Projects = () => (
         
       
       </ul>
-   <a href="https://example.com" onClick={(e) => { e.preventDefault(); alert('Link clicked!'); }}> Live Demo </a>
+   <a href="https://example.com" onClick={(e) => { e.preventDefault(); alert('Unfortunately a third party that was hosting this app has stopped giving me free tier, looking for alternative free hosting option '); }}> Live Demo </a>
     </div>
     <div>
       <h3>Company Inventory Tracking Application</h3>
