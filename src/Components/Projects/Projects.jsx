@@ -13,13 +13,21 @@ const Projects = () => (
       happy to provide more details or a demonstration upon request.
     </p>
     <div>
-      <h3>Modern Fullstack Media and Chat Application</h3>
-      <p>
-        Developed a modern chat application similar to Facebook using React.js,
-        Redux, Node.js,Mysql and Socket.io for real-time communication.
-      </p>
+      <h3>ELITESPACE</h3>
+      <h4>faeatures</h4>
+      <ul>
+        <li> Digital lease signing &amp; renewals within the app.</li>
+        <li>Control smart locks &amp; Automated access control for guests (generate temporary digital keys).</li>
+        <li> Easy one-tap reporting for noise complaints or neighbor disturbances.</li>
+        <li> AI-based detection of repeated complaints and escalation to management.</li>
+        <li> Digital lease signing &amp; renewals within the app.</li>
+        <li>Smart package locker integration for secure pickup</li>
+        <li>Temporary guest parking permits issued via the app.</li>
+        
+      
+      </ul>
       <a
-        href="https://chat-app-ydrz.vercel.app/"
+        href=""
         target="_blank"
         rel="noopener noreferrer"
       >
