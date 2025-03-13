@@ -39,7 +39,7 @@ const Projects = () => (
   <li>Music and Movie Sharing: Users can share music and movies, and allow others to listen or watch along.</li>
   <li>Real-Time Chat: A feature for users to chat in real time.</li>
   <li>Community Building: building a community through social interactions like live chats and user interactions to create a sense of belonging.</li>
-  <li>"Your Vibe. Your Stage": The app allows users to express themselves and create a unique experience.</li>
+  <li>Your Vibe. Your Stage: The app allows users to express themselves and create a unique experience.</li>
 </ul>
 
       <a href="https://example.com" onClick={(e) => { e.preventDefault(); alert('Unfortunately a third party that was hosting this app has stopped giving me free tier, looking for alternative free hosting services '); }}> Live Demo </a>
