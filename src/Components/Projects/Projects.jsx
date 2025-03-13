@@ -22,16 +22,17 @@ const Projects = () => (
         
       
       </ul>
-       <a 
+    <a 
   href="https://echovibe-frontend-ex5ysmgiw-patrick-tuyiringires-projects.vercel.app/" 
   onClick={(e) => { 
     e.preventDefault(); 
-    alert('Note that some functionalities won't be available as i am using a free third party tier to host this.');
-    window.location.href = e.target.href; // Redirect to the link after alert
+    alert('Note that some functionalities won\'t be available as I am using a free third party tier to host this.');
+    window.location.href = e.currentTarget.href; // Redirect to the link after alert
   }}
 >
   Live Demo
 </a>
+
   
 
     </div>
@@ -41,16 +42,17 @@ const Projects = () => (
         Built an inventory tracking system with React.js,Node Js and PostgreSQL,
         enabling efficient management and tracking of company assets.
       </p>
-       <a 
+     <a 
   href="https://echovibe-frontend-ex5ysmgiw-patrick-tuyiringires-projects.vercel.app/" 
   onClick={(e) => { 
     e.preventDefault(); 
-    alert('Note that some functionalities won't be available as i am using a free third party tier to host this.');
-    window.location.href = e.target.href; // Redirect to the link after alert
+    alert('Note that some functionalities won\'t be available as I am using a free third party tier to host this.');
+    window.location.href = e.currentTarget.href; // Redirect to the link after alert
   }}
 >
   Live Demo
 </a>
+
     </div>
     <div>
       <h3>ECHOVIBE</h3>
@@ -62,16 +64,17 @@ const Projects = () => (
   <li>Your Vibe. Your Stage: The app allows users to express themselves and create a unique experience.</li>
 </ul>
 
-        <a 
+ <a 
   href="https://echovibe-frontend-ex5ysmgiw-patrick-tuyiringires-projects.vercel.app/" 
   onClick={(e) => { 
     e.preventDefault(); 
-    alert('Note that some functionalities won't be available as i am using a free third party tier to host this.');
-    window.location.href = e.target.href; // Redirect to the link after alert
+    alert('Note that some functionalities won\'t be available as I am using a free third party tier to host this.');
+    window.location.href = e.currentTarget.href; // Redirect to the link after alert
   }}
 >
   Live Demo
 </a>
+
     </div>
   </section>
 );
