@@ -1,4 +1,4 @@
-import "./Homepage.css";
+import "./HomePage.css";
 import { FaEnvelope, FaLinkedin, FaGithub, FaFacebook } from "react-icons/fa";
 function HomePage() {
   return (
