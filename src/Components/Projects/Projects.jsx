@@ -23,7 +23,7 @@ const Projects = () => (
       
       </ul>
        <a 
-  href="https://vercel.com/patrick-tuyiringires-projects/echovibe-frontend/AmsJfhZKe53ohxjPV2wSmWpFe4QW" 
+  href="https://echovibe-frontend-ex5ysmgiw-patrick-tuyiringires-projects.vercel.app/" 
   onClick={(e) => { 
     e.preventDefault(); 
     alert('Unfortunately a third party that was hosting this app has stopped giving me free tier, looking for alternative free hosting services.');
@@ -42,7 +42,7 @@ const Projects = () => (
         enabling efficient management and tracking of company assets.
       </p>
     <a 
-  href="https://vercel.com/patrick-tuyiringires-projects/echovibe-frontend/AmsJfhZKe53ohxjPV2wSmWpFe4QW" 
+  href="https://echovibe-frontend-ex5ysmgiw-patrick-tuyiringires-projects.vercel.app/" 
   onClick={(e) => { 
     e.preventDefault(); 
     alert('Unfortunately a third party that was hosting this app has stopped giving me free tier, looking for alternative free hosting services.');
@@ -63,7 +63,7 @@ const Projects = () => (
 </ul>
 
       <a 
-  href="https://vercel.com/patrick-tuyiringires-projects/echovibe-frontend/AmsJfhZKe53ohxjPV2wSmWpFe4QW" 
+  href="https://echovibe-frontend-ex5ysmgiw-patrick-tuyiringires-projects.vercel.app/" 
   onClick={(e) => { 
     e.preventDefault(); 
     alert('Unfortunately a third party that was hosting this app has stopped giving me free tier, looking for alternative free hosting services.');
