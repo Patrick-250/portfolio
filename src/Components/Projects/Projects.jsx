@@ -22,7 +22,7 @@ const Projects = () => (
         
       
       </ul>
-   <a href="https://example.com" onClick={(e) => { e.preventDefault(); alert('Unfortunately a third party that was hosting this app has stopped giving me free tier, looking for alternative free hosting option '); }}> Live Demo </a>
+   <a href="https://example.com" onClick={(e) => { e.preventDefault(); alert('Unfortunately a third party that was hosting this app has stopped giving me free tier, looking for alternative free hosting services '); }}> Live Demo </a>
     </div>
     <div>
       <h3>Company Inventory Tracking Application</h3>
@@ -30,27 +30,19 @@ const Projects = () => (
         Built an inventory tracking system with React.js,Node Js and PostgreSQL,
         enabling efficient management and tracking of company assets.
       </p>
-      <a
-        href="https://inventory-tracking.com"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Live Demo
-      </a>
+     <a href="https://example.com" onClick={(e) => { e.preventDefault(); alert('Unfortunately a third party that was hosting this app has stopped giving me free tier, looking for alternative free hosting services '); }}> Live Demo </a>
     </div>
     <div>
-      <h3>Hospital Housing Management System</h3>
-      <p>
-        Developed a hospital housing management system using React.js, Flask,
-        and MongoDB to manage housing and room allocations and track occupancy.
-      </p>
-      <a
-        href="https://hospital-housing.com"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Live Demo
-      </a>
+      <h3>ECHOVIBE</h3>
+     <ul>
+  <li>Live Streaming/Go Live: ability for users to broadcast their content to others in the app.</li>
+  <li>Music and Movie Sharing: Users can share music and movies, and allow others to listen or watch along.</li>
+  <li>Real-Time Chat: A feature for users to chat in real time.</li>
+  <li>Community Building: building a community through social interactions like live chats and user interactions to create a sense of belonging.</li>
+  <li>"Your Vibe. Your Stage": The app allows users to express themselves and create a unique experience.</li>
+</ul>
+
+      <a href="https://example.com" onClick={(e) => { e.preventDefault(); alert('Unfortunately a third party that was hosting this app has stopped giving me free tier, looking for alternative free hosting services '); }}> Live Demo </a>
     </div>
   </section>
 );
