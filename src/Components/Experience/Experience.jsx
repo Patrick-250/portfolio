@@ -122,39 +122,6 @@ const Experience = () => (
         </li>
       </ul>
     </div>
-    <div className="experience-item">
-      <h3>Fullstack Developer Intern</h3>
-      <p>Society of Scholars | Remote, US | May 2020 – Dec 2020</p>
-      <ul>
-        <li>
-          Implemented innovative features like personalized learning paths and
-          progress tracking; Improved user experience with AI-powered real-time
-          suggestions, boosting course completion rates by 18%.
-        </li>
-        <li>
-          Used Docker to containerize the application, ensuring consistent
-          deployment across different environments.
-        </li>
-      </ul>
-    </div>
-    <div className="experience-item">
-      <h3>Back-End Software Engineer</h3>
-      <p>Andela | Kigali, Rwanda | May 2016 – Aug 2018</p>
-      <ul>
-        <li>
-          Redesigned application modules using Flask and deployed on AWS,
-          improving performance and reducing response time.
-        </li>
-        <li>
-          Performed CRUD operations with Django ORM and integrated with
-          PostgreSQL database.
-        </li>
-        <li>
-          Worked on CI/CD pipelines with Azure DevOps and Docker to automate
-          deployments.
-        </li>
-      </ul>
-    </div>
   </section>
 );
 
