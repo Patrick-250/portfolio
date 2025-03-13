@@ -34,20 +34,16 @@ const Projects = () => (
         onClick={(e) => {
           e.preventDefault();
           alert(
-            "Note that some functionalities won't be available as I am using a free third party tier to host this."
+            "Sorry but the third party that was hosting my app stopped its free tier, looking around to find another free hosting services. Please check back later."
           );
-          window.location.href =
-            "https://echovibe-frontend-ex5ysmgiw-patrick-tuyiringires-projects.vercel.app/"; // Redirect to the link after alert
         }}
       >
         Live Demo
       </button>
       <button
         onClick={(e) => {
-          e.preventDefault();
-          alert(
-            "Sorry but the third party that was hosting my app stopped its free tier, looking around to find another free hosting services. Please check back later."
-          );
+          window.location.href =
+            "https://github.com/Patrick-250/Patrick-250-EliteSpace-v2/tree/master";
         }}
       >
         GitHub
@@ -90,10 +86,8 @@ const Projects = () => (
       </button>
       <button
         onClick={(e) => {
-          e.preventDefault();
-          alert(
-            "Sorry this Functionality is still in work. Please check back later."
-          );
+          window.location.href =
+            "https://github.com/Patrick-250/Echovibe-frontend"; // Redirect to the link after alert
         }}
       >
         GitHub
