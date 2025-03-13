@@ -27,9 +27,6 @@ const Contact = () => (
       >
         <FaGithub className="contact-icon" />
       </a>
-      <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer">
-        <FaFacebook className="contact-icon" />
-      </a>
     </div>
   </section>
 );

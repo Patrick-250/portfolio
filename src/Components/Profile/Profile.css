@@ -1,9 +1,11 @@
 .profile {
   text-align: center;
-  margin: 20px 0;
+}
+h2 {
+  color: #81c3d7;
 }
 
 .profile-icon {
   font-size: 100px;
-  color: white;
+  color: #d9dcd6;
 }

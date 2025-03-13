@@ -19,17 +19,21 @@ p {
 h3 {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
-  color: #187795; /* Adjust the color as needed */
+  color: #187795;
   margin-top: 20px;
 }
 
-a {
+button {
   font-family: "Arial", sans-serif;
   font-size: 16px;
-  color: #2589bd; /* Adjust the color as needed */
-  text-decoration: none;
+  padding: 5px 10px;
+  background-color: #2589bd;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-right: 10px;
 }
 
-a:hover {
-  text-decoration: underline;
+button:hover {
+  cursor: pointer;
 }

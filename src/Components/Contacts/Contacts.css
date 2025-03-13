@@ -1,6 +1,9 @@
 .contact-links {
   display: flex;
-  gap: 60px;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
 }
 
 .contact-icon {

@@ -1,0 +1,14 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+.home-page hr {
+  border: 1px solid #187795;
+  width: 80%;
+  margin: 20px auto;
+}
+.contact-icon {
+  margin-right: 40px;
+}

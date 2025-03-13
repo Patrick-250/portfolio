@@ -21,21 +21,14 @@ import {
   SiMysql,
   SiPostgresql,
   SiMongodb,
-  SiSqlite,
   SiKubernetes,
   SiJenkins,
   SiMicrosoftazure,
   SiGooglecloud,
-  SiTensorflow,
-  SiPytorch,
-  SiScikitlearn,
-  SiPandas,
-  SiNumpy,
-  SiFlask,
 } from "react-icons/si";
 
 const Skills = () => (
-  <section>
+  <section className="skill-page">
     <h2>Skills</h2>
     <div className="skills-category">
       <h3>Programming Languages and Tools</h3>
@@ -51,6 +44,10 @@ const Skills = () => (
         <li>
           <FaJs className="devicon" title="JavaScript" />
           <span>JavaScript</span>
+        </li>
+        <li>
+          <SiTypescript className="devicon" title="TypeScript" />
+          <span>TypeScript</span>
         </li>
         <li>
           <SiSpring className="devicon" title="Spring Boot" />
@@ -123,34 +120,6 @@ const Skills = () => (
         <li>
           <SiMongodb className="devicon" title="MongoDB" />
           <span>MongoDB</span>
-        </li>
-        <li>
-          <SiSqlite className="devicon" title="SQLite" />
-          <span>SQLite</span>
-        </li>
-        <li>
-          <SiTensorflow className="devicon" title="TensorFlow" />
-          <span>TensorFlow</span>
-        </li>
-        <li>
-          <SiPytorch className="devicon" title="PyTorch" />
-          <span>PyTorch</span>
-        </li>
-        <li>
-          <SiScikitlearn className="devicon" title="Scikit-learn" />
-          <span>Scikit-learn</span>
-        </li>
-        <li>
-          <SiPandas className="devicon" title="Pandas" />
-          <span>Pandas</span>
-        </li>
-        <li>
-          <SiNumpy className="devicon" title="NumPy" />
-          <span>NumPy</span>
-        </li>
-        <li>
-          <SiFlask className="devicon" title="Flask" />
-          <span>Flask</span>
         </li>
       </ul>
     </div>

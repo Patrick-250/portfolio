@@ -6,6 +6,8 @@ import "./Profile.css";
 const Profile = () => (
   <div className="profile">
     <FontAwesomeIcon icon={faUserCircle} className="profile-icon" />
+    <h2>Patrick Tuyiringire</h2>
+    <p style={{ color: "#020609", fontSize: "20px" }}>Software Engineer</p>
   </div>
 );
 

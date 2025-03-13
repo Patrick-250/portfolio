@@ -1,7 +1,10 @@
+html {
+  background-color: #f8f8f8;
+}
+
 .App {
   display: flex;
   flex-direction: column;
-  background-color: #bbd5ed;
 }
 
 .main-content {
@@ -16,8 +19,6 @@
   }
 
   .main-content {
-    margin-left: 250px; /* Adjust this if you have a sidebar */
+    margin-left: 250px;
   }
 }
-
-/* Add more media queries as needed for different screen sizes */
