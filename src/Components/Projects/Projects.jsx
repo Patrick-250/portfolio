@@ -22,7 +22,7 @@ const Projects = () => (
         
       
       </ul>
-   <a 
+       <a 
   href="https://vercel.com/patrick-tuyiringires-projects/echovibe-frontend/AmsJfhZKe53ohxjPV2wSmWpFe4QW" 
   onClick={(e) => { 
     e.preventDefault(); 
@@ -32,6 +32,7 @@ const Projects = () => (
 >
   Live Demo
 </a>
+  
 
     </div>
     <div>
@@ -40,7 +41,16 @@ const Projects = () => (
         Built an inventory tracking system with React.js,Node Js and PostgreSQL,
         enabling efficient management and tracking of company assets.
       </p>
-     <a href="https://example.com" onClick={(e) => { e.preventDefault(); alert('Unfortunately a third party that was hosting this app has stopped giving me free tier, looking for alternative free hosting services '); }}> Live Demo </a>
+    <a 
+  href="https://vercel.com/patrick-tuyiringires-projects/echovibe-frontend/AmsJfhZKe53ohxjPV2wSmWpFe4QW" 
+  onClick={(e) => { 
+    e.preventDefault(); 
+    alert('Unfortunately a third party that was hosting this app has stopped giving me free tier, looking for alternative free hosting services.');
+    window.location.href = e.target.href; // Redirect to the link after alert
+  }}
+>
+  Live Demo
+</a>
     </div>
     <div>
       <h3>ECHOVIBE</h3>
@@ -52,7 +62,16 @@ const Projects = () => (
   <li>Your Vibe. Your Stage: The app allows users to express themselves and create a unique experience.</li>
 </ul>
 
-      <a href="https://example.com" onClick={(e) => { e.preventDefault(); alert('Unfortunately a third party that was hosting this app has stopped giving me free tier, looking for alternative free hosting services '); }}> Live Demo </a>
+      <a 
+  href="https://vercel.com/patrick-tuyiringires-projects/echovibe-frontend/AmsJfhZKe53ohxjPV2wSmWpFe4QW" 
+  onClick={(e) => { 
+    e.preventDefault(); 
+    alert('Unfortunately a third party that was hosting this app has stopped giving me free tier, looking for alternative free hosting services.');
+    window.location.href = e.target.href; // Redirect to the link after alert
+  }}
+>
+  Live Demo
+</a>
     </div>
   </section>
 );
