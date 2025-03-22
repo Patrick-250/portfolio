@@ -33,9 +33,7 @@ const Projects = () => (
       <button
         onClick={(e) => {
           e.preventDefault();
-          alert(
-            "Sorry but the third party that was hosting my app stopped its free tier, looking around to find another free hosting services. Please check back later."
-          );
+          window.location.href = "https://elitespace.netlify.app/";
         }}
       >
         Live Demo
