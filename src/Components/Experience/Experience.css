@@ -12,18 +12,19 @@ h2 {
 .experience-item {
   margin-bottom: 20px;
 }
-
+.experience-item p {
+  color: #22333b;
+}
 h3 {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
-  color: #187795; /* Adjust the color as needed */
+  color: #187795;
   margin-top: 20px;
 }
 
 p {
   font-family: "Arial", sans-serif;
   font-size: 16px;
-  color: #333; /* Adjust the color as needed */
 }
 
 ul {
@@ -34,6 +35,6 @@ ul {
 li {
   font-family: "Arial", sans-serif;
   font-size: 16px;
-  color: #333; /* Adjust the color as needed */
+  color: white;
   margin-bottom: 10px;
 }

@@ -1,5 +1,10 @@
 import React from "react";
-import { FaEnvelope, FaLinkedin, FaGithub, FaFacebook } from "react-icons/fa";
+import {
+  FaEnvelope,
+  FaLinkedin,
+  FaGithub,
+  FaFileDownload,
+} from "react-icons/fa";
 import "./Contacts.css";
 
 const Contact = () => (
@@ -28,6 +33,22 @@ const Contact = () => (
         <FaGithub className="contact-icon" />
       </a>
     </div>
+    <a
+      href="/Resume.docx"
+      download="Patrick_Resume.docx"
+      className="resume-link "
+      style={{
+        display: "flex",
+        justifyItems: "center",
+        justifyContent: "center",
+        alignItems: "center",
+        border: "none",
+        marginTop: "20px",
+      }}
+    >
+      Download My Resume
+      <FaFileDownload className="download-icon" style={{ marginLeft: "5px" }} />
+    </a>
   </section>
 );
 

@@ -1,6 +1,9 @@
 section {
   padding: 20px;
 }
+.projects h4 {
+  color: #779be7;
+}
 
 h2 {
   font-family: "Poppins", sans-serif;

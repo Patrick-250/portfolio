@@ -2,9 +2,9 @@ import React from "react";
 import "./Projects.css";
 
 const Projects = () => (
-  <section>
+  <section className="projects">
     <h2>Projects</h2>
-    <p>
+    <p style={{ color: "#a4b8c4" }}>
       My passion for Software engineering pushes me to be innovative with
       cutting-edge technology. As a software engineer, I see the development
       process as an ongoing journey—one that thrives on continuous growth and
@@ -12,7 +12,11 @@ const Projects = () => (
       technology that evolves with the future.
     </p>
     <div>
-      <h3>ELITESPACE</h3>
+      <h3>1. ELITESPACE</h3>
+      <p style={{ color: "#fcfafa" }}>
+        A smart apartment tenant portal that solve the issues related to tenant
+        experience and tenant retention for apartment companies.
+      </p>
       <h4>Features</h4>
       <ul>
         <li>Digital lease signing &amp; renewals within the app.</li>
@@ -49,7 +53,7 @@ const Projects = () => (
     </div>
 
     <div>
-      <h3>ECHOVIBE</h3>
+      <h3>2. ECHOVIBE</h3>
       <h4>Features</h4>
       <ul>
         <li>

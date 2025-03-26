@@ -2,15 +2,14 @@ section {
   padding: 20px;
 }
 
-h2 {
-  font-family: "Poppins", sans-serif;
+.about-title {
   font-size: 24px;
   color: #2589bd;
   padding-bottom: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 p {
-  font-family: "Arial", sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 16px;
-  color: #333;
 }
