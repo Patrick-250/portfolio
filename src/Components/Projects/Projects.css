@@ -4,19 +4,15 @@ section {
 .projects h4 {
   color: #779be7;
 }
-
-h2 {
-  font-family: "Poppins", sans-serif;
-  font-size: 24px;
-  color: #2589bd; /* Adjust the color as needed */
-  padding-bottom: 5px;
+.projects p {
+  color: black;
 }
-
-p {
-  font-family: "Arial", sans-serif;
-  font-size: 16px;
-  color: #333; /* Adjust the color as needed */
-  margin-bottom: 20px;
+.features-list li {
+  color: black;
+}
+.closeELitespaceDemoVideo {
+  color: black;
+  background-color: white;
 }
 
 h3 {

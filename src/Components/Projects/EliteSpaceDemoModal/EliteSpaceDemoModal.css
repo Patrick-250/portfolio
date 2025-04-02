@@ -1,0 +1,12 @@
+.modal {
+  display: modal;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  z-index: 1000;
+}
+.modal.open {
+  display: flex;
+}
