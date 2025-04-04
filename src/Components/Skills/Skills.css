@@ -28,3 +28,6 @@
   color: #187795;
   margin-right: 10px;
 }
+.devicon:hover {
+  cursor: pointer;
+}

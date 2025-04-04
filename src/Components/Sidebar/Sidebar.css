@@ -1,9 +1,16 @@
 .sidebar {
   width: 100%;
   background-color: white;
+  background-color: #e8f7ee;
 
   padding: 20px;
   box-sizing: border-box;
+}
+.open-sidebar {
+  font-size: 24px;
+
+  width: 10px;
+  height: 10px;
 }
 
 @media (min-width: 768px) {
