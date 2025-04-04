@@ -2,13 +2,13 @@ section {
   padding: 20px;
 }
 .projects h4 {
-  color: #779be7;
+  color: white;
 }
 .projects p {
   color: black;
 }
 .features-list li {
-  color: black;
+  color: white;
 }
 .closeELitespaceDemoVideo {
   color: black;
@@ -18,7 +18,7 @@ section {
 h3 {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
-  color: #187795;
+  color: white;
   margin-top: 20px;
 }
 
@@ -26,8 +26,8 @@ button {
   font-family: "Arial", sans-serif;
   font-size: 16px;
   padding: 5px 10px;
-  background-color: #2589bd;
-  color: white;
+  background-color: white;
+  color: black;
   border: none;
   border-radius: 10px;
   margin-right: 10px;

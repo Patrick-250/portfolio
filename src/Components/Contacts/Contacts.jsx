@@ -21,21 +21,21 @@ const Contact = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FaEnvelope className="contact-icon" style={{ color: "#187795" }} />
+        <FaEnvelope className="contact-icon" style={{ color: "white" }} />
       </a>
       <a
         href="https://linkedin.com/in/patricktuyiringirerumanzi"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FaLinkedin className="contact-icon" style={{ color: "#187795" }} />
+        <FaLinkedin className="contact-icon" style={{ color: "white" }} />
       </a>
       <a
         href="https://github.com/Patrick-250"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FaGithub className="contact-icon" style={{ color: "#187795" }} />
+        <FaGithub className="contact-icon" style={{ color: "white" }} />
       </a>
     </div>
     <a

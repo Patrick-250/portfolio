@@ -7,7 +7,7 @@ const Projects = () => {
 
   return (
     <section className="projects">
-      <h2 style={{ color: "#2589bd" }}>Projects</h2>
+      <h2 style={{ color: "white" }}>Projects</h2>
 
       <div>
         <h3>1. ELITESPACE</h3>

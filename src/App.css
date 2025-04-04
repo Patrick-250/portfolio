@@ -1,16 +1,13 @@
 html {
-  background-color: white;
+  background-color: black;
 }
 
 .App {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
-
 .main-content {
-  flex: 1;
-  padding: 20px;
-  box-sizing: border-box;
 }
 
 @media (min-width: 768px) {

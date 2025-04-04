@@ -29,9 +29,8 @@ import {
 
 const Skills = () => (
   <section className="skill-page">
-    <h2>Skills</h2>
+    <h2 style={{ color: "white" }}>Skills</h2>
     <div className="skills-category">
-      <h3 style={{ color: "black" }}>Programming Languages and Tools</h3>
       <ul className="skills-list">
         <li>
           <FaJava className="devicon" title="Java" />

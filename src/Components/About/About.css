@@ -13,3 +13,13 @@ p {
   font-family: "Times New Roman", Times, serif;
   font-size: 16px;
 }
+.about_me_tags_list {
+  display: flex;
+  flex-direction: column;
+}
+.about_me_tags {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  gap: 30px;
+}

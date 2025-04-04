@@ -3,7 +3,7 @@ import "./Experience.css";
 
 const Experience = () => (
   <section>
-    <h2>Experience</h2>
+    <h2 style={{ color: "white" }}>Experience</h2>
     <div className="experience-item">
       <h3>Software Developer</h3>
       <p>Quality Living Inc. | Omaha, NE | May 2024 – March 2025</p>
