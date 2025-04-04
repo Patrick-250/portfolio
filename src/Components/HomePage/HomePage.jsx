@@ -8,6 +8,8 @@ import {
 } from "react-icons/fa";
 
 function Star({ top, left, size, duration }) {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <div
       className="star"
