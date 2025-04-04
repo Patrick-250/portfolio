@@ -46,7 +46,7 @@ function HomePage() {
   const [typedText, setTypedText] = useState("");
   const starFieldRef = useRef(null);
 
-  const textToType = "Let's build something amazing together!";
+  const textToType = "Made with ❤️, Let's build something amazing together!";
 
   const regenerateStars = () => {
     const generatedStars = generateStars();
@@ -77,22 +77,22 @@ function HomePage() {
     const typeAndReset = () => {
       interval = setInterval(() => {
         if (index < textToType.length) {
-          setTypedText((prev) => textToType.slice(0, index + 1)); // Update text correctly
+          setTypedText((prev) => textToType.slice(0, index + 1));
           index++;
         } else {
           clearInterval(interval);
           setTimeout(() => {
             setTypedText("");
             index = 0;
-            typeAndReset(); // Restart the typing effect
-          }, 1000); // Pause before restarting
+            typeAndReset();
+          }, 1000);
         }
-      }, 100); // Typing speed
+      }, 100);
     };
 
     typeAndReset();
 
-    return () => clearInterval(interval); // Cleanup interval on unmount
+    return () => clearInterval(interval);
   }, []);
 
   return (

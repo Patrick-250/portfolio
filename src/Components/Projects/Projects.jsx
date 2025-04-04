@@ -8,13 +8,7 @@ const Projects = () => {
   return (
     <section className="projects">
       <h2 style={{ color: "#2589bd" }}>Projects</h2>
-      <p style={{ color: "black" }}>
-        My passion for Software engineering pushes me to be innovative with
-        cutting-edge technology. As a software engineer, I see the development
-        process as an ongoing journey—one that thrives on continuous growth and
-        adaptation. Every project is an opportunity to push boundaries and shape
-        technology that evolves with the future.
-      </p>
+
       <div>
         <h3>1. ELITESPACE</h3>
         <p style={{}}>
@@ -106,15 +100,20 @@ const Projects = () => {
         <button
           onClick={(e) => {
             e.preventDefault();
-            alert(
-              "Note that some functionalities won't be available as I am using a free third party tier to host this."
-            );
-            window.location.href =
-              "https://echovibe-frontend-ex5ysmgiw-patrick-tuyiringires-projects.vercel.app/"; // Redirect to the link after alert
+            alert("Coming soon!.....");
           }}
         >
           Live Demo
         </button>
+        <button
+          onClick={(e) => {
+            e.preventDefault();
+            alert("Coming soon!......");
+          }}
+        >
+          Link
+        </button>
+
         <button
           onClick={(e) => {
             window.location.href =

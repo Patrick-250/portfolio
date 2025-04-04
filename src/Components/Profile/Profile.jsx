@@ -14,7 +14,7 @@ const Profile = () => (
 
     <h3>Patrick Tuyiringire</h3>
     <p className="profile title" style={{}}>
-      Software Engineer & more
+      Software Engineer & More
     </p>
     <hr />
   </div>
