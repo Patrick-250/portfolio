@@ -1,40 +1,33 @@
 section {
   padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-  font-family: "Poppins", sans-serif;
   font-size: 24px;
-  color: #2589bd; /* Adjust the color as needed */
-  padding-bottom: 5px;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
 }
 
 .experience-item {
   margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #fff;
 }
-.experience-item p {
-  color: #22333b;
-}
-h3 {
-  font-family: "Poppins", sans-serif;
+
+.experience-item h3 {
   font-size: 20px;
-  color: #187795;
-  margin-top: 20px;
+  margin-bottom: 5px;
+  color: #555;
 }
 
-p {
-  font-family: "Arial", sans-serif;
+.experience-item p {
   font-size: 16px;
-}
-
-ul {
-  list-style-type: disc;
-  padding-left: 20px;
-}
-
-li {
-  font-family: "Arial", sans-serif;
-  font-size: 16px;
-  color: white;
-  margin-bottom: 10px;
+  color: #777;
+  margin: 0;
 }

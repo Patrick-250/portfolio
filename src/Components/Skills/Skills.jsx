@@ -31,7 +31,7 @@ const Skills = () => (
   <section className="skill-page">
     <h2>Skills</h2>
     <div className="skills-category">
-      <h3>Programming Languages and Tools</h3>
+      <h3 style={{ color: "black" }}>Programming Languages and Tools</h3>
       <ul className="skills-list">
         <li>
           <FaJava className="devicon" title="Java" />
@@ -77,14 +77,7 @@ const Skills = () => (
           <SiNextdotjs className="devicon" title="Next.js" />
           <span>Next.js</span>
         </li>
-        <li>
-          <SiHtml5 className="devicon" title="HTML" />
-          <span>HTML</span>
-        </li>
-        <li>
-          <SiCss3 className="devicon" title="CSS" />
-          <span>CSS</span>
-        </li>
+
         <li>
           <SiMysql className="devicon" title="MySQL" />
           <span>MySQL</span>
@@ -101,22 +94,12 @@ const Skills = () => (
           <SiJenkins className="devicon" title="CI/CD" />
           <span>CI/CD</span>
         </li>
-        <li>
-          <FaDocker className="devicon" title="Docker" />
-          <span>Docker</span>
-        </li>
+
         <li>
           <FaAws className="devicon" title="AWS" />
           <span>AWS</span>
         </li>
-        <li>
-          <SiGooglecloud className="devicon" title="GCP" />
-          <span>GCP</span>
-        </li>
-        <li>
-          <SiKubernetes className="devicon" title="Kubernetes" />
-          <span>Kubernetes</span>
-        </li>
+
         <li>
           <SiMongodb className="devicon" title="MongoDB" />
           <span>MongoDB</span>

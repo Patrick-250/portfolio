@@ -1,4 +1,4 @@
-.contact-links {
+.contacts-container {
   display: flex;
   justify-items: center;
   justify-content: center;
@@ -7,7 +7,6 @@
 }
 
 .contact-icon {
-  color: #187795;
   font-size: 40px;
   transition: color 0.3s;
 }

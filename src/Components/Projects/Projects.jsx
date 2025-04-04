@@ -63,6 +63,15 @@ const Projects = () => {
         <button
           onClick={(e) => {
             e.preventDefault();
+
+            window.location.href = "https://elitespace.netlify.app/"; // Redirect to the link after alert
+          }}
+        >
+          Link
+        </button>
+        <button
+          onClick={(e) => {
+            e.preventDefault();
             window.location.href =
               "https://github.com/Patrick-250/Elitespace-frontend"; // Redirect to the GitHub repository
           }}
