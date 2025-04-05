@@ -26,15 +26,16 @@
 }
 
 .nav-links a {
-  color: white;
+  color: #2589bd;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
   text-decoration: none;
 }
-
-.social-media-icons {
-  display: flex;
-  gap: 15px;
+.nav-links a:hover {
   color: white;
-  font-size: 30px;
+}
+.social-media-icons {
+  visibility: hidden;
 }
 
 /* Responsive styles for smaller screens */
