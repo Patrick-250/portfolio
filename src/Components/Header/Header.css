@@ -5,9 +5,7 @@
   padding: 2rem 2rem;
   background-color: black;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  position: relative;
 }
-
 .profile-logo {
   width: 50px;
   height: 50px;
@@ -25,64 +23,13 @@
   gap: 1.5rem;
   justify-content: center;
 }
-
 .nav-links a {
   color: white;
   text-decoration: none;
 }
-
 .social-media-icons {
   display: flex;
   gap: 15px;
   color: white;
   font-size: 30px;
-}
-
-.menu-toggle {
-  display: none;
-  font-size: 1.5rem;
-  color: white;
-  cursor: pointer;
-}
-
-.nav-links.open {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: black;
-  width: 100%;
-  padding: 1rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  z-index: 10;
-}
-
-@media (max-width: 768px) {
-  .menu-toggle {
-    display: block;
-  }
-
-  .nav-links {
-    display: none;
-  }
-
-  .nav-links.open {
-    display: flex;
-  }
-
-  .nav-links a {
-    text-align: center;
-    padding: 0.5rem 0;
-    width: 100%;
-    box-sizing: border-box;
-  }
-
-  .profile-logo {
-    margin-left: 0;
-  }
-
-  .social-media-icons {
-    justify-content: center;
-  }
 }

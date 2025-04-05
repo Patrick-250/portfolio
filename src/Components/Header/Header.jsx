@@ -1,20 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
 import { FaLinkedinIn } from "react-icons/fa6";
 import { HiOutlineMail } from "react-icons/hi";
 import { FaTwitter } from "react-icons/fa";
-import { FaBars, FaTimes } from "react-icons/fa"; // Icons for menu toggle
 
 import "./Header.css";
 
 const Header = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
-  };
-
   return (
     <header className="header">
       <div className="profile-container">
@@ -26,10 +19,7 @@ const Header = () => {
           ></img>
         </a>
       </div>
-      <div className="menu-toggle" onClick={toggleMenu}>
-        {menuOpen ? <FaTimes /> : <FaBars />}
-      </div>
-      <nav className={`nav-links ${menuOpen ? "open" : ""}`}>
+      <nav className="nav-links">
         <Link to="/about">About</Link>
         <Link to="/skills">Skills</Link>
         <Link to="/experience">Experience</Link>
