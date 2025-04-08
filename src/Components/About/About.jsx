@@ -12,11 +12,10 @@ const About = () => (
     </section>
     <div className="about_me_tags">
       <div className="about_me_tags_list">
-        <h3 style={{ color: "white" }}>Interests</h3>
+        <h3 style={{ color: "white", marginBottom: "5px" }}>Interests</h3>
         <p>Software Development</p>
         <p>Cloud Computing</p>
         <p>Artificial Intelligence</p>
-
         <p>Data Science</p>
       </div>
       <div className="">

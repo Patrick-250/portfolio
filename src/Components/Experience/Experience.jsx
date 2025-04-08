@@ -9,7 +9,7 @@ const Experience = () => (
       <p>Quality Living Inc. | Omaha, NE | May 2024 – March 2025</p>
     </div>
     <div className="experience-item">
-      <h3>Coding Expert for AI Training</h3>
+      <h3>Software Engineer, Generative AI </h3>
       <p>Scale AI, via Outlier | Remote, US | August 2023 – December 2024</p>
     </div>
     <div className="experience-item">

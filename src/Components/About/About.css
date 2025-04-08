@@ -16,6 +16,7 @@ p {
 .about_me_tags_list {
   display: flex;
   flex-direction: column;
+  gap: 5px;
 }
 .about_me_tags {
   display: flex;
