@@ -73,9 +73,50 @@ const Projects = () => {
           GitHub
         </button>
       </div>
+      <div>
+        <h3>2. Dev4devs</h3>
+        <h4>Features</h4>
+        <ul className="features-list" style={{ color: "white" }}>
+          <li>Platform where engineers can share what they’re building.</li>
+          <li>Ask questions (Stack Overflow style).</li>
+          <li>Showcase UI, code snippets, and thoughts.</li>
+          <li>Connect with other developers.</li>
+          <li>
+            Toggle off the "I’m a developer" mode to hide code-heavy posts for
+            non-developers 😂.
+          </li>
+        </ul>
+        <button
+          onClick={(e) => {
+            e.preventDefault();
+            window.location.href = "https://dev4devs.onrender.com/"; // Redirect to the link after alert
+          }}
+        >
+          Live Demo
+        </button>
+        <button
+          onClick={(e) => {
+            e.preventDefault();
+            window.location.href = "https://dev4devs.onrender.com/";
+          }}
+        >
+          Link
+        </button>
+
+        <button
+          onClick={(e) => {
+            e.preventDefault();
+            alert(
+              "Private Repository! Please contact Patrick for direct access."
+            );
+          }}
+        >
+          GitHub
+        </button>
+      </div>
 
       <div>
-        <h3>2. ECHOVIBE</h3>
+        <h3>3. ECHOVIBE</h3>
         <h4>Features</h4>
         <ul className="features-list">
           <li>

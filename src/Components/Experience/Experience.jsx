@@ -5,6 +5,13 @@ const Experience = () => (
   <section>
     <h2 style={{ color: "white" }}>Experience</h2>
     <div className="experience-item">
+      <h3>Software Engineer</h3>
+      <p>
+        Dallas Software Developers Group. | Remote in Dallas, TX | March 2025 –
+        Present
+      </p>
+    </div>
+    <div className="experience-item">
       <h3>Software Developer</h3>
       <p>Quality Living Inc. | Omaha, NE | May 2024 – March 2025</p>
     </div>
