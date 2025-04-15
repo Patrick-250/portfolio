@@ -32,7 +32,7 @@ function Star({ top, left, size, duration }) {
 
 function generateStars() {
   const stars = [];
-  const numberOfStars = 200;
+  const numberOfStars = 100;
   for (let i = 0; i < numberOfStars; i++) {
     stars.push({
       top: Math.random() * 100 + "vh",
