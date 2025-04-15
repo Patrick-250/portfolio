@@ -98,7 +98,7 @@ function HomePage() {
   return (
     <div className="home-page" ref={starFieldRef}>
       <div className="stars">{stars}</div>
-      <h1 style={{ color: "white" }}>Hello, I'm Patrick</h1>
+      <h1 style={{ color: "white" }}>Welcome, I'm Patrick</h1>
 
       <p style={{ color: "white" }}>Software Engineer</p>
       <hr />

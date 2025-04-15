@@ -2,7 +2,7 @@ import React from "react";
 import "./About.css";
 
 const About = () => (
-  <div>
+  <div className="about_me">
     <section>
       <h2 style={{ color: "white" }}>About Me</h2>
       <p style={{ color: "white" }}>

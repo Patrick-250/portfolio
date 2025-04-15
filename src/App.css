@@ -1,18 +1,23 @@
-html {
-  background-color: black;
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
 }
 
 .App {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  background-color: #004385;
+  height: 100%;
 }
+
 .main-content {
 }
 
 @media (min-width: 768px) {
   .App {
     flex-direction: column;
-    height: 10vh;
+    height: 100%;
   }
 }
