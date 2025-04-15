@@ -14,7 +14,7 @@ const Header = () => {
         <a href="/">
           <img
             className="profile-logo"
-            src="images/profilelogo.png"
+            src="src/assets/images/profilelogo.png"
             alt="logo"
           ></img>
         </a>

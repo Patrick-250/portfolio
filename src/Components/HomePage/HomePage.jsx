@@ -100,8 +100,11 @@ function HomePage() {
     <div className="home-page" ref={starFieldRef}>
       <div className="stars">{stars}</div>
 
-      <div>
-        <img src="/"></img>
+      <span className="home-page-content">
+        <img
+          src="src/assets/images/coder.png"
+          style={{ width: "200px", height: "200px", borderRadius: "50%" }}
+        ></img>
         <section className="home-page-intro">
           Welcome to my code-fueled world, <br />
           Explore my work, and share your view, <br />
@@ -109,7 +112,7 @@ function HomePage() {
           Want to collaborate? Reach out to me, <br />
           Let's craft solutions, as bold as can be. <br />
         </section>
-      </div>
+      </span>
 
       <hr />
 
