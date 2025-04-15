@@ -112,6 +112,10 @@ function HomePage() {
           Want to collaborate? Reach out to me, <br />
           Let's craft solutions, as bold as can be. <br />
         </section>
+        <img
+          src="src/assets/images/coder.png"
+          style={{ width: "200px", height: "200px", borderRadius: "50%" }}
+        ></img>
       </span>
 
       <hr />
