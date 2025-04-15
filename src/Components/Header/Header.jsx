@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../../assets/images/profilelogo.png";
 
 import { FaLinkedinIn } from "react-icons/fa6";
 import { HiOutlineMail } from "react-icons/hi";
@@ -12,11 +13,7 @@ const Header = () => {
     <header className="header">
       <div className="profile-container">
         <a href="/">
-          <img
-            className="profile-logo"
-            src="src/assets/images/profilelogo.png"
-            alt="logo"
-          ></img>
+          <img className="profile-logo" src={logo} alt="logo"></img>
         </a>
       </div>
       <nav className="nav-links">

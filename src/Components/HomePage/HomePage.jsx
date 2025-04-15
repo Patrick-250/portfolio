@@ -104,7 +104,7 @@ function HomePage() {
 
       <span className="home-page-content">
         <img
-          src={logo}
+          src={coder}
           alt="logo"
           style={{ width: "200px", height: "200px", borderRadius: "50%" }}
         ></img>
