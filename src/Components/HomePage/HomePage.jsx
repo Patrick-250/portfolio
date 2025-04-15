@@ -46,7 +46,8 @@ function HomePage() {
   const [typedText, setTypedText] = useState("");
   const starFieldRef = useRef(null);
 
-  const textToType = "Made with ❤️, Let's build something amazing together!";
+  const textToType =
+    "Made with Passion&Love, Let's build something amazing together!";
 
   const regenerateStars = () => {
     const generatedStars = generateStars();
@@ -98,9 +99,18 @@ function HomePage() {
   return (
     <div className="home-page" ref={starFieldRef}>
       <div className="stars">{stars}</div>
-      <h1 style={{ color: "white" }}>Welcome, I'm Patrick</h1>
 
-      <p style={{ color: "white" }}>Software Engineer</p>
+      <div>
+        <img src="/"></img>
+        <section className="home-page-intro">
+          Welcome to my code-fueled world, <br />
+          Explore my work, and share your view, <br />
+          <br />
+          Want to collaborate? Reach out to me, <br />
+          Let's craft solutions, as bold as can be. <br />
+        </section>
+      </div>
+
       <hr />
 
       <div className="contact-linkss">
