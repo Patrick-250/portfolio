@@ -1,4 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
+import logo from "../../assets/images/profilelogo.png";
+import coder from "../../assets/images/coder.png";
 import "./HomePage.css";
 import {
   FaEnvelope,
@@ -102,7 +104,8 @@ function HomePage() {
 
       <span className="home-page-content">
         <img
-          src="src/assets/images/coder.png"
+          src={logo}
+          alt="logo"
           style={{ width: "200px", height: "200px", borderRadius: "50%" }}
         ></img>
         <section className="home-page-intro">
@@ -113,7 +116,8 @@ function HomePage() {
           Let's craft solutions, as bold as can be. <br />
         </section>
         <img
-          src="src/assets/images/coder.png"
+          src={coder}
+          alt="coder"
           style={{ width: "200px", height: "200px", borderRadius: "50%" }}
         ></img>
       </span>
