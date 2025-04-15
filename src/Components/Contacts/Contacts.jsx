@@ -11,7 +11,7 @@ const Contact = () => (
   <section>
     <h2>Contacts</h2>
     <div className="contact-container">
-      <p style={{ color: "black" }}>
+      <p style={{ color: "white" }}>
         I am always open to new opportunities and collaborations. Feel free to
         reach out to me through any of the platforms below:{" "}
       </p>
@@ -49,7 +49,7 @@ const Contact = () => (
         alignItems: "center",
         border: "none",
         marginTop: "20px",
-        color: "black",
+        color: "white",
       }}
     >
       Download My Resume
@@ -58,7 +58,7 @@ const Contact = () => (
         style={{
           marginLeft: "5px",
 
-          color: "black",
+          color: "white",
         }}
       />
     </a>

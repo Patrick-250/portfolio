@@ -11,7 +11,7 @@ const Projects = () => {
 
       <div>
         <h3>1. ELITESPACE</h3>
-        <p style={{}}>
+        <p style={{ color: "white" }}>
           A smart apartment tenant portal that solve the issues related to
           tenant experience and tenant retention for apartment companies.
         </p>

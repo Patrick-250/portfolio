@@ -2,10 +2,18 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/profilelogo.png";
 
-import { FaLinkedinIn } from "react-icons/fa6";
+import {
+  FaLinkedinIn,
+  FaTwitter,
+  FaBars,
+  FaTimes,
+  FaUserAlt,
+  FaCogs,
+  FaBriefcase,
+  FaLaptopCode,
+  FaEnvelope,
+} from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { FaTwitter } from "react-icons/fa";
-import { FaBars, FaTimes } from "react-icons/fa";
 
 import "./Header.css";
 
@@ -27,16 +35,37 @@ const Header = () => {
         {menuOpen ? <FaTimes /> : <FaBars />}
       </div>
       <nav className={`nav-links ${menuOpen ? "active" : ""}`}>
-        <Link to="/about">About</Link>
-        <Link to="/skills">Skills</Link>
-        <Link to="/experience">Experience</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/contact">Contact</Link>
+        <Link to="/about">
+          <FaUserAlt className="nav-icon" /> Who I Am
+        </Link>
+        <Link to="/projects">
+          <FaLaptopCode className="nav-icon" /> What I've Built
+        </Link>
+        <Link to="/skills">
+          <FaCogs className="nav-icon" /> Stack Behind My Work
+        </Link>
+        <Link to="/experience">
+          <FaBriefcase className="nav-icon" /> Work History
+        </Link>
+
+        <Link to="/contact">
+          <FaEnvelope className="nav-icon" /> Get in Touch
+        </Link>
       </nav>
       <div className="social-media-icons">
-        <FaTwitter />
-        <FaLinkedinIn />
-        <HiOutlineMail />
+        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+          <FaTwitter />
+        </a>
+        <a
+          href="https://linkedin.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaLinkedinIn />
+        </a>
+        <a href="mailto:your-email@example.com">
+          <HiOutlineMail />
+        </a>
       </div>
     </header>
   );
