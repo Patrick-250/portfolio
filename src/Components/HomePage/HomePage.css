@@ -70,3 +70,41 @@
 .resume-link:hover {
   font-size: small;
 }
+@media (max-width: 768px) {
+  .home-page {
+    height: auto;
+    padding: 20px;
+  }
+
+  .home-page-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-page-intro {
+    font-size: small;
+    margin: 10px 0;
+  }
+
+  .contact-linkss a {
+    margin: 0 5px;
+  }
+  .typed-text {
+    font-size: medium;
+    padding: 20px;
+  }
+
+  .resume-link {
+    font-size: small;
+    padding: 10px 5px;
+  }
+
+  .home-page img {
+    width: 150px;
+    height: 150px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin: 10px;
+  }
+}

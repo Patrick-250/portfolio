@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import logo from "../../assets/images/profilelogo.png";
 import coder from "../../assets/images/coder.png";
+import coffee from "../../assets/images/coffee.png";
 import "./HomePage.css";
 import {
   FaEnvelope,
@@ -104,8 +105,8 @@ function HomePage() {
 
       <span className="home-page-content">
         <img
-          src={coder}
-          alt="logo"
+          src={coffee}
+          alt="coffee"
           style={{ width: "200px", height: "200px", borderRadius: "50%" }}
         ></img>
         <section className="home-page-intro">
