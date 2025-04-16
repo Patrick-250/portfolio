@@ -1,5 +1,6 @@
 .about_me {
 }
+
 section {
   padding: 20px;
 }
@@ -14,14 +15,36 @@ section {
 p {
   font-family: "Times New Roman", Times, serif;
 }
+
 .about_me_tags_list {
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
+
 .about_me_tags {
   display: flex;
   flex-direction: row;
   color: white;
   gap: 30px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .about_me_tags {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .about_me_tags_list {
+    gap: 10px;
+  }
+
+  section {
+    padding: 10px;
+  }
+
+  .about-title {
+    font-size: 20px;
+  }
 }
