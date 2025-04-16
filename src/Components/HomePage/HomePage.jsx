@@ -149,7 +149,7 @@ function HomePage() {
         </a>
       </div>
       <p className="typed-text">{typedText}</p>
-      <a
+      {/* <a
         href="/Resume.docx"
         download="Patrick_Resume.docx"
         className="resume-link"
@@ -159,7 +159,7 @@ function HomePage() {
           className="download-icon"
           style={{ marginLeft: "5px" }}
         />
-      </a>
+      </a> */}
     </div>
   );
 }
