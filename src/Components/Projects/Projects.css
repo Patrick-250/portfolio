@@ -1,9 +1,28 @@
-section {
-  padding: 20px;
+.projects {
+  height: 100vh;
 }
 .projects h4 {
   color: white;
 }
+
+.projects_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.project-card {
+  flex: 1;
+  border: 0.2px inset #2e86ab;
+  padding: 5px 10px;
+  /* border: 2px solid red; this line is here for debugging... red for debug cz its easier to see lol*/
+}
+.project-buttons {
+  margin-bottom: 0px;
+
+  margin-left: 10px;
+}
+
 .projects p {
   color: black;
 }
@@ -30,10 +49,21 @@ button {
   color: black;
   border: none;
   border-radius: 10px;
-  margin-right: 10px;
+  margin-right: 10px; /* add a 10px space between live demo,github and link buttons*/
+  margin-bottom: 0;
 }
 
 button:hover {
   cursor: pointer;
   background-color: #83a5c1;
+}
+
+@media (max-width: 768px) {
+  .projects_container {
+    flex-direction: column;
+    gap: 15px;
+  }
+  button {
+    margin-top: 0px !important;
+  }
 }

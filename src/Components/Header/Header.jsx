@@ -30,6 +30,7 @@ const Header = () => {
         <a href="/">
           <img className="profile-logo" src={logo} alt="logo"></img>
         </a>
+        {/*<span class="tooltip-text">return to home</span>*/}
       </div>
       <div className="menu-icon" onClick={toggleMenu}>
         {menuOpen ? <FaTimes /> : <FaBars />}

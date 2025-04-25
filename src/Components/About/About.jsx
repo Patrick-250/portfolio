@@ -21,13 +21,13 @@ const About = () => (
         <p>Artificial Intelligence</p>
         <p>Data Science</p>
       </div>
-      <div className="">
+      <div className="about_me_tags_list">
         <h3 style={{ color: "white" }}>Certifications</h3>
         <p style={{ color: "white" }}>Generative AI Engineer, Databricks</p>
         <p style={{ color: "white" }}>AWS Certified Solutions Architect, AWS</p>
         <p style={{ color: "white" }}>Creative Skills - For Creatives, Adobe</p>
       </div>
-      <div className="">
+      <div className="about_me_tags_list">
         <h3 style={{ color: "white" }}>Education</h3>
         <p style={{ color: "white" }}>
           Bachelor of Science , University of Nebraska Lincoln, 2022
@@ -36,16 +36,14 @@ const About = () => (
           Master of Science in Computer Science, Arizona State University, 2025
         </p>
       </div>
-      <div className="">
-        <h3 style={{ color: "white" }}>Testimonials</h3>
-        <p>coming soon</p>
-      </div>
 
       <div className="about_me_tags_list">
-        <h3 style={{ color: "white", marginBottom: "5px" }}>Hobbies</h3>
-        <p>Reading about AI advancements</p>
-        <p>Contributing to open-source projects</p>
-        <p>I play Video games when i am not outsiiide</p>
+        <h3 style={{ color: "white" }}>Hobbies</h3>
+
+        <p> Video games</p>
+        <p>Musics</p>
+        <p>sport/Soccer</p>
+        <p>movies</p>
       </div>
     </div>
   </div>
