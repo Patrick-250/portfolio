@@ -8,23 +8,12 @@ import {
 import "./Contacts.css";
 
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
-  };
-
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic here (e.g., send data to a server or email service)
-    console.log("Form submitted:", formData);
-    alert("Thank you for your message!");
-    setFormData({ name: "", email: "", message: "" });
+    alert(
+      " opps! grace period for this Email service is currently paused please use other platforms --Patrick"
+    );
+    e.target.reset();
   };
 
   return (
@@ -97,8 +86,6 @@ const Contact = () => {
           <input
             type="text"
             name="name"
-            value={formData.name}
-            onChange={handleChange}
             required
             style={{
               display: "block",
@@ -118,8 +105,6 @@ const Contact = () => {
           <input
             type="email"
             name="email"
-            value={formData.email}
-            onChange={handleChange}
             required
             style={{
               display: "block",
@@ -138,8 +123,6 @@ const Contact = () => {
           <label style={{ color: "white" }}>Message:</label>
           <textarea
             name="message"
-            value={formData.message}
-            onChange={handleChange}
             required
             style={{
               display: "block",
