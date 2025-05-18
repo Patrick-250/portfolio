@@ -47,6 +47,24 @@
   color: white;
   cursor: pointer;
 }
+.chat-with-me-icon {
+  animation: pulse 1.5s infinite;
+  background-color: #5bba6f;
+  border: green;
+  border-radius: 50%;
+  padding: 10px;
+}
+.chat-with-me-icon:hover {
+  cursor: pointer;
+  background-color: #137547;
+}
+.Chat-icon-text {
+}
+.chat-me-container {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
 
 /* Responsive styles for smaller screens */
 @media (max-width: 768px) {

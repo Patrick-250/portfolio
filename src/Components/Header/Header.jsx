@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useNavigate } from "react";
 import { Link } from "react-router-dom";
+import { IoLogoWechat } from "react-icons/io5";
 import logo from "../../assets/images/profilelogo.png";
 
 import {
@@ -28,7 +29,7 @@ const Header = () => {
     <header className="header">
       <div className="profile-container">
         <a href="/">
-          <img className="profile-logo" src={logo} alt="logo"></img>
+          <img className="profile-logo" src={logo} alt="logo" />
         </a>
         {/*<span class="tooltip-text">return to home</span>*/}
       </div>
@@ -67,6 +68,26 @@ const Header = () => {
         <a href="mailto:your-email@example.com">
           <HiOutlineMail />
         </a>
+      </div>
+      <div className="chat-me-container">
+        <Link to="/chat">
+          <IoLogoWechat
+            className="chat-with-me-icon"
+            style={{
+              color: "white",
+              fontSize: "60px",
+              marginRight: "20px",
+            }}
+          />
+        </Link>
+
+        <span
+          style={{ color: "white", fontSize: "10px" }}
+          className="Chat-icon-text"
+        >
+          {" "}
+          Ask Me About Me{" "}
+        </span>
       </div>
     </header>
   );

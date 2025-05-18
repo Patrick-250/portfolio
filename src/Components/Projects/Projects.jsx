@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { IoCloseCircleOutline } from "react-icons/io5";
+import elitespace from "../../assets/images/EliteSpace.png";
 import "./Projects.css";
 
 const Projects = () => {
@@ -11,6 +12,9 @@ const Projects = () => {
       <div className="projects_container">
         <div className="project-card">
           <h3>1. ELITESPACE</h3>
+          {/* <a>
+            <img className="project_link_image" src={elitespace} />
+          </a> */}
           <p style={{ color: "white" }}>
             A smart apartment tenant portal that solve the issues related to
             tenant experience and tenant retention for apartment companies.
@@ -65,6 +69,7 @@ const Projects = () => {
           >
             Link
           </button>
+
           <button
             className="project-buttons"
             onClick={(e) => {

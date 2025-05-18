@@ -40,6 +40,12 @@ h3 {
   color: white;
   margin-top: 20px;
 }
+.project_link_image {
+  width: 200px;
+  height: 200px;
+
+  border: 2px solid white;
+}
 
 button {
   font-family: "Arial", sans-serif;

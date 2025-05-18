@@ -6,6 +6,8 @@ import Projects from "./Components/Projects/Projects";
 import Contact from "./Components/Contacts/Contacts";
 import Header from "./Components/Header/Header";
 import HomePage from "./Components/HomePage/HomePage";
+import ChatWithMe from "./Components/ChatWithMe/ChatWithMe";
+
 import "./App.css";
 
 const App = () => (
@@ -21,6 +23,7 @@ const App = () => (
         <Route path="/experience" element={<Experience />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/chat" element={<ChatWithMe />} />
       </Routes>
     </div>
   </Router>
