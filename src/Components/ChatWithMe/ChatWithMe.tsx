@@ -1,29 +1,32 @@
 import React from "react";
 import "./ChatWithMe.css";
-import { BiColor } from "react-icons/bi";
 
 const ChatWithMe = () => {
   return (
     <div className="chat-container">
-      {/* Header */}
-      <div className="chat-header" style={{ color: "#a4ac86" }}>
-        Virtual Assistant
-        <br />
-        AI
+      <div className="chat-header">
+        <h2>Patrick's Virtual Assistant</h2>
+        <p>Ask me anything!</p>
       </div>
 
-      {/* Message Area */}
       <div className="chat-messages">
         <div className="message-bot">
-          Hello! I am Patrick's virtual assistant, How can I assist you today?
+          👋 Hello! I’m Patrick’s virtual assistant. How can I help you today?
+        </div>
+
+        <div className="card-buttons-container">
+          <div className="card-button">Tell me about yourself</div>
+          <div className="card-button">Where did you go to school?</div>
+          <div className="card-button">
+            How do you stay updated with ongoing tech discoveries?
+          </div>
         </div>
       </div>
 
-      {/* Input Area */}
       <div className="chat-input-area">
         <input
           type="text"
-          placeholder="Ask Me Anything..."
+          placeholder="Type here to start a chat..."
           className="chat-input"
         />
         <button className="chat-button">Send</button>
